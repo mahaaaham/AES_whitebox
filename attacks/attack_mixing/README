@@ -1,0 +1,11 @@
+To find the collisions, you just have to:
+
+ 1 - create tables.h with a key of your choice, for example: 
+   ../../whitebox_aes_generator/generate_tables keys/key1
+
+ 2 - make the collision executable 
+   make clean; make 
+
+ 3 - do the attack 
+   ./collision
+

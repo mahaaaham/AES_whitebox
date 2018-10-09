@@ -1,0 +1,19 @@
+To test the attack, you just have to:
+
+ 1 - create the file tables.h with a key of your choice, for example: 
+   ../../whitebox_aes_generator/generate_tables -z keys/key1
+
+   (-z for zero protection)
+
+ 2 - make the attack executable
+   make clean; make 
+
+ 3 - lanch the attack
+   ./attack
+
+ warning: if mixing bijections or encodings are activated, 
+ 	  the attack will still give a key but obviously a wrong one;
+	  don't forget the -z option!
+
+
+
